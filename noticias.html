@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Metadatos -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turno Matutino| IPT Don Bosco</title>
+  <link rel="icon" href="img/logo.png" />
+  <!-- Enlace al CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- ================== ENCABEZADO FIJO ================== -->
+  <header class="top">
+    <nav>
+      <!-- Logo o nombre del instituto -->
+      <div class="logo" style="background:none;border: none;"> 
+        <a href="index.html"> 
+        <img src="img/logo.png"  alt="logo" style="width:100px;height:100px;"> </a>
+        <strong class="titulo" style="margin: 10px;">Instituto Profesional Y <br>
+           Técnico Don Bosco </strong>
+      </div>
+
+
+      <!-- Icono del menú hamburguesa (visible en móvil) -->
+      <div class="burger" id="burger">☰</div>
+
+      <!-- Enlaces de navegación -->
+ <ul class="nav-links" id="nav-links">
+  <li><a href="index.html" >Inicio</a></li>
+  <li><a href="nostros.html">Nosotros</a></li>
+  <!-- SUBMENU DE OFERTA -->
+   
+  <li class="submenu submenu-oferta">
+    <a class="toggle">Oferta</a>
+    <ul class="submenu-list">
+      <li><a href="electronica.html">Electrónica</a></li>
+      <li><a href="electricidad.html">Electricidad</a></li>
+      <li><a href="refrigeracion.html">Climatización</a></li>
+      <li><a href="informatica.html">Informática</a></li>
+    </ul>
+  </li>
+
+  <!-- SUBMENU DE PROFESORES -->
+  <li class="submenu submenu-profs">
+    <a class="toggle">Profesores</a>
+    <ul class="submenu-list">
+      <li ><a style="font-size:12px; text-align: center;" href="matutino.html" >Matutino</a></li>
+      <li ><a style="font-size:12px; text-align: center;" href="vespertino.html">Vespertino</a></li>
+    </ul>
+  </li>
+
+
+  <li><a href="noticias.html" class="active">Noticias</a></li>
+  <li ><a href="contacto.html"  >Contacto</a></li>
+</ul>
+    </nav>
+  </header>
+   
+  <!-- ====== SECCIÓN DE NOTICIAS ====== -->
+<section class="noticias">
+  <h2 class="titulo-noticias">Noticias Recientes</h2>
+
+  <div class="contenedor-noticias">
+
+    <a href="index.html" class="noticia">
+      <h3 class="subtitulo-noticia">TITULO-NOTICIA</h3>
+      <img src="img/placeholder.webp" alt="">
+      <p class="descripcion">
+        Los estudiantes presentaron proyectos innovadores en la Feria Técnica anual.
+      </p>
+    </a>
+
+    <a href="index.html" class="noticia">
+      <h3 class="subtitulo-noticia">TITULO-NOTICIA</h3>
+      <img src="img/placeholder.webp" alt="">
+      <p class="descripcion">
+        Se inauguró un moderno laboratorio con equipos actualizados.
+      </p>
+    </a>
+
+    <a href="index.html" class="noticia">
+      <h3 class="subtitulo-noticia">TITULO-NOTICIA</h3>
+      <img src="img/placeholder.webp" alt="">
+      <p class="descripcion">
+        Recibimos la visita de instituciones técnicas fortaleciendo el intercambio educativo.
+      </p>
+    </a>
+
+  </div>
+</section>
+
+
+<!-- ====== SECCIÓN DE CIRCULARES ====== -->
+<section class="noticias">
+  <h2 class="titulo-noticias">Circulares</h2>
+
+  <div class="contenedor-noticias">
+
+    <a href="index.html" class="noticia">
+      <h3 class="subtitulo-noticia">TITULO-CIRCULAR</h3>
+      <img src="img/placeholder.webp" alt="">
+      <p class="descripcion">
+        Circular informativa sobre actividades académicas del mes.
+      </p>
+    </a>
+
+    <a href="index.html" class="noticia">
+      <h3 class="subtitulo-noticia">TITULO-CIRCULAR</h3>
+      <img src="img/placeholder.webp" alt="">
+      <p class="descripcion">
+        Actualización importante para padres de familia y estudiantes.
+      </p>
+    </a>
+
+  </div>
+</section>
+
+
+  <footer>
+
+  <!-- CONTACTO (IZQUIERDA) -->
+  <div class="contacto">
+    <p><strong>Contacto:</strong></p>
+    <p><img src="img/ubicacion1.webp" style="width: 15px;"> Avenida 3a, Don Bosco, Panamá</p>
+    <p><img src="img/telefono1.webp" style="width: 15px;"> +507 500-5263</p>
+    <p><img src="img/correo1.webp" style="width: 15px;"> iptdonbosco2011@hotmail.com</p>
+    <p><img src="img/relog1.webp" style="width: 15px;"> Lunes a Viernes, 7:00 a.m. – 3:00 p.m.</p>
+  </div>
+
+  <!-- LOGO CENTRADO -->
+  <div class="logo-footer">
+    <img src="img/logo.png" alt="logo 30 aniversario">
+  </div>
+
+  <!-- INSTAGRAM (DERECHA) -->
+  <div class="instagram">
+    <button id="btnInsta" style="background:none; border:none; cursor:pointer;">
+      <img src="img/instagram1.webp" style="width:30px; height:23px;">
+    </button>
+    <strong>ipt_donbosco</strong>
+  </div>
+
+  <!-- COPYRIGHT -->
+  <p class="copyright">&copy; 2026 Instituto Profesional y Técnico Don Bosco.</p>
+
+</footer>
+
+  <!-- Script JS -->
+  <script src="script.js"></script>
+</body>
+</html>
